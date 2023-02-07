@@ -15,6 +15,85 @@
 }
 
 body {
-    font-size: 1rem;
+    font-size: 0.975rem;
     font-family: 'Poppins', sans-serif;
+    color: var(--Very-Dark-Blue);
 }
+
+/* Container */
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
+/* Header Section */
+
+.header {
+    text-align: center;
+}
+.card-title {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.card-title span {
+    font-weight: bold;
+}
+
+.card-description {
+    opacity: 0.7;
+    margin: 1em 1em 5em;
+}
+
+/* Main Section */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2em;
+}
+
+.section {
+    padding: 2em 1.5em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 14px 20px -5px rgba(218,228,240,1);
+}
+
+.cyan-border {
+    border-top: 5px solid var(--cyan-border);
+}
+
+.red-border {
+    border-top: 5px solid var(--red-border);
+}
+
+.orange-border {
+    border-top: 5px solid var(--orange-border);
+}
+
+.blue-border {
+    border-top: 5px solid var(--blue-border);
+}
+
+.section-title {
+    font-size: 1.3rem;
+}
+
+.section-description {
+    font-size: 0.9rem;
+    margin: 1em 0 3em;
+    opacity: 0.6;
+}
+
+.icon {
+    width: 20%;
+    align-self: flex-end;
+}
+
+
+
